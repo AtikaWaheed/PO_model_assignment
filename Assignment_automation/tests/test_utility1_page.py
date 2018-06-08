@@ -4,7 +4,6 @@ from selenium import webdriver
 from ..pages.utility_page import UtilityPage
 from selenium.common.exceptions import NoSuchElementException
 from ..pages.login_page import LoginPage
-import time
 
 
 class BaseTest(unittest.TestCase):
